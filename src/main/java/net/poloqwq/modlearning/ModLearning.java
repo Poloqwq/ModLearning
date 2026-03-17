@@ -5,6 +5,8 @@ import net.fabricmc.api.ModInitializer;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
+// commit / push function test, don't mind this line
+
 public class ModLearning implements ModInitializer {
 	public static final String MOD_ID = "mod-learning";
 	public static final Logger LOGGER = LoggerFactory.getLogger(MOD_ID);
