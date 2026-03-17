@@ -1,0 +1,37 @@
+{
+	"schemaVersion": 1,
+	"id": "mod-learning",
+	"version": "${version}",
+	"name": "Mod Learning",
+	"description": "A playground mod by Poloqwq for learning how to develop fabric mod",
+	"authors": [
+		"Poloqwq"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/Poloqwq/ModLearning"
+	},
+	"license": "MIT",
+	"icon": "assets/mod-learning/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.poloqwq.modlearning.ModLearning"
+		],
+		"fabric-datagen": [
+			"net.poloqwq.modlearning.ModLearningDataGenerator"
+		],
+		"client": [
+			"net.poloqwq.modlearning.ModLearningClient"
+		]
+	},
+	"mixins": [
+		"mod-learning.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.18.4",
+		"minecraft": "~1.21",
+		"java": ">=21",
+		"fabric-api": "*"
+	}
+}
