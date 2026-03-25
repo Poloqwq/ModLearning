@@ -33,11 +33,6 @@ public class ModBlocks {
 
     public static void registerModBlocks() {
         ModLearning.LOGGER.info("Registering Mod Blocks for " + ModLearning.MOD_ID);
-
-        ItemGroupEvents.modifyEntriesEvent(ItemGroups.BUILDING_BLOCKS).register(entries->{
-            entries.add(PINK_GARNET_BLOCK);
-            entries.add(RAW_PINK_GARNET_BLOCK);
-        });
     }
 
 }

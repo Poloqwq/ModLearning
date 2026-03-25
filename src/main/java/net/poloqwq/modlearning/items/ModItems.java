@@ -19,10 +19,5 @@ public class ModItems {
 
     public static void registerModItems() {
         ModLearning.LOGGER.info("Registering Mod Items for" + ModLearning.MOD_ID);
-
-        ItemGroupEvents.modifyEntriesEvent(ItemGroups.INGREDIENTS).register(entries -> {
-            entries.add(PINK_GARNET);
-            entries.add(RAW_PINK_GARNET);
-        });
     }
 }

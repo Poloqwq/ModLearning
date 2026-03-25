@@ -2,5 +2,8 @@
   "item.mod-learning.pink_garnet": "粉色石榴石",
   "item.mod-learning.raw_pink_garnet": "粉色石榴石原礦",
   "block.mod-learning.pink_garnet_block": "粉色石榴磚",
-  "block.mod-learning.raw_pink_garnet_block": "粉色石榴原礦磚"
+  "block.mod-learning.raw_pink_garnet_block": "粉色石榴原礦磚",
+
+  "itemgroup.mod-learning.pink_garnet_items": "粉色石榴物件",
+  "itemgroup.mod-learning.pink_garnet_blocks": "粉色石榴方塊"
 }

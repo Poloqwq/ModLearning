@@ -3,6 +3,7 @@ package net.poloqwq.modlearning;
 import net.fabricmc.api.ModInitializer;
 
 import net.poloqwq.modlearning.blocks.ModBlocks;
+import net.poloqwq.modlearning.items.ModItemGroups;
 import net.poloqwq.modlearning.items.ModItems;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -24,6 +25,6 @@ public class ModLearning implements ModInitializer {
 		// Proceed with mild caution.
 		ModItems.registerModItems();
 		ModBlocks.registerModBlocks();
-
+		ModItemGroups.registerItemGroups();
 	}
 }
