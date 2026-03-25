@@ -2,6 +2,7 @@ package net.poloqwq.modlearning;
 
 import net.fabricmc.api.ModInitializer;
 
+import net.poloqwq.modlearning.blocks.ModBlocks;
 import net.poloqwq.modlearning.items.ModItems;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -22,7 +23,7 @@ public class ModLearning implements ModInitializer {
 		// However, some things (like resources) may still be uninitialized.
 		// Proceed with mild caution.
 		ModItems.registerModItems();
-
+		ModBlocks.registerModBlocks();
 
 	}
 }
